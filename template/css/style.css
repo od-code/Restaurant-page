@@ -32,7 +32,7 @@ body {
 /* LAYOUT
 /*******************************************/
 /* The navigation bar   */
-header {
+header  {
 	background: url(https://res.cloudinary.com/db88ckgtm/image/upload/v1606853558/100devs/restaurant/restaurant-hero_eoge05.jpg)center no-repeat ;
 height: 100vh;
 background-size: cover;
@@ -57,40 +57,88 @@ input{
   padding: 0.6em 5em;
   margin-right: 0;
 }
-form button{
+.btn{
   border: none;
   padding: 0.7em 2em;
-  background-color: orange;
+  background-color: rgba( 241, 162, 74, 100%);
   color: #fff;
   margin-left: -0.25em;
+  border-radius: 5px;
 }
 .count{
   display: flex;
   gap: 15px;
   margin-top: 20px;
+  flex-wrap: ;
 }
 section
 h1{
   font-size: 4em;
 }
-main>section{
-  background-image: url("https://images.unsplash.com/photo-1493807402946-1a3fe6683ff2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+section p{
+  margin: 1em 0;
+}
+.box-a{
+  background-image: url("https://images.unsplash.com/photo-1478144592103-25e218a04891?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
   text-align: start;
-  padding: 2em 30em;
+  padding: 1em 25em;
 
 }
-main>section div{
+.box-a div{
   background-color: rgb(236, 223, 223, 0.3);
   height: 100%;
   line-height: 20px;
-  padding: 10em 2em;
+  padding: 7em 2em;
   font-size: 1.3em;
 
 }
+.box-a h2{
+  line-height: 1em;
+}
+/* The image container */
+.container{
+  text-align: center;
+  padding: 3em 2em;
+  line-height: 5em;
+  background: #E1EAF1;
+}
+.container ul{
+  display: flex;
+  justify-content: center;
+}
+.container ul li{
+  margin: 2em;
+}
+.box img{
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;  
+height: 100%;
+object-fit: cover;
+}
+.imgContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+}
+h2{
+  font-size: 4rem;
+}
+
+
+
 
 footer {
 
