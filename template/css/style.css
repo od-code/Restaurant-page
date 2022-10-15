@@ -100,17 +100,17 @@ section p{
   line-height: 1em;
 }
 /* The image container */
-.container{
+.gallery{
   text-align: center;
   padding: 3em 2em;
   line-height: 5em;
   background: #E1EAF1;
 }
-.container ul{
+.gallery ul{
   display: flex;
   justify-content: center;
 }
-.container ul li{
+.gallery ul li{
   margin: 2em;
 }
 .box img{
@@ -136,12 +136,27 @@ object-fit: cover;
 h2{
   font-size: 4rem;
 }
-
-
-
-
+.box-b{
+  text-align: center;
+  padding: 2em;
+background-image: url("https://images.pexels.com/photos/1660030/pexels-photo-1660030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.openHours{
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+  margin: 2em 0;
+}
 footer {
-
+  text-align: center;
+  padding: 4em 10em;
+}
+footer .container > *{
+  line-height: 3em;
+}
+footer img{
+  width: 100px;
+  border-radius: 45%;
 }
 
 /******************************************
