@@ -147,6 +147,9 @@ background-image: url("https://images.pexels.com/photos/1660030/pexels-photo-166
   gap: 10em;
   margin: 2em 0;
 }
+.openHours + img{
+  width: 70%;
+}
 footer {
   text-align: center;
   padding: 4em 10em;
@@ -167,4 +170,13 @@ a{
 }
 ul{
   list-style: none;
+}
+/* Icon styles  */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 3 ,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: rgb(245, 153, 48);
 }
