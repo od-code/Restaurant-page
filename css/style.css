@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 /* Box Model Hack */
 * {
   box-sizing: border-box;
@@ -99,7 +100,11 @@ section p{
 .box-a h2{
   line-height: 1em;
 }
-/* The image container */
+.orange{
+font-size: 1.5em;
+color: rgb(245, 153, 48);
+}
+/* The image container tire */
 .gallery{
   text-align: center;
   padding: 3em 2em;
@@ -161,6 +166,10 @@ footer img{
   width: 100px;
   border-radius: 45%;
 }
+footer p:nth-last-of-type(1){
+  font-size: 1.5em;
+  line-height: 40px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -179,4 +188,8 @@ ul{
   'GRAD' 0,
   'opsz' 48;
   color: rgb(245, 153, 48);
+}
+/* The fonts  */
+.font{
+  font-family: 'Lato', sans-serif;
 }
